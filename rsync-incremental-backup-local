@@ -22,7 +22,7 @@ maxLogFiles="${maxLogFiles:-20}"
 useChecksum="${useChecksum:-1}"
 
 # Combinate previously defined variables for use (don't touch this)
-ownFolderPath="${HOME}/${ownFolderName}"
+ownFolderPath="${ownFolderName}"
 tempLogPath="${ownFolderPath}/local_${dst//[\/]/\\}"
 inclusionFilePath="${ownFolderPath}/${inclusionFileName}"
 exclusionFilePath="${ownFolderPath}/${exclusionFileName}"
